@@ -13,7 +13,7 @@
       <param name="opposite_side" value="$(arg side)" />
     </node>
 
-  <include file="$(find burger_war_level7)/launch/enemy_detector.launch">
+  <include file="$(find burger_war_dev)/launch/enemy_detector.launch">
     <arg name="robot_namespace" default="$(arg robot_namespace)"/>
     <arg name="side" value="$(arg side)" />
     <arg name="robot_name" value="$(arg robot_name)" />
